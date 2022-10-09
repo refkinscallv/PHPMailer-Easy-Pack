@@ -129,8 +129,8 @@
             }
 
             $mail->Subject = $data->content->subject;
-            $mail->Body    = $data->content->bodyHTML;
-            $mail->AltBody = ($data->content->bodyText)? $data->content->bodyText : "This is the body in plain text for non-HTML mail clients";
+            $mail->Body    = $data->content->body;
+            $mail->AltBody = ($data->content->bodyAlt)? $data->content->bodyText : "This is the body in plain text for non-HTML mail clients";
 
             $mail->send();
 
