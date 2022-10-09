@@ -41,8 +41,9 @@
         "content"       => (object) [
                                         "html"      => true,
                                         "subject"   => "Subject",
-                                        "body"      => "Say hi to PHPMailer Esay Pack",
-                                        "bodyAlt"   => false
+                                        "body"      => "Say hi to PHPMailer Easy Pack",
+                                        "bodyAlt"   => "Alternative without HTML Format"
+                                        // bodyAlt can be used or not
                                     ]
     ];
 
