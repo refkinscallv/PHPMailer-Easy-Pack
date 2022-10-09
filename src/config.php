@@ -39,4 +39,4 @@
     $smtp   = (object) [
         "smtp_debug"    => false,
         "smtp_secure"   => true,
-    ]
+    ];
