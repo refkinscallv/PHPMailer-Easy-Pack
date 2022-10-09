@@ -138,7 +138,6 @@
         } catch (Exception $e) {
             return false;
 
-            // Optional with error output
             // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     }
