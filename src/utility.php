@@ -95,7 +95,7 @@
                     if($bcc[1] == 0 || $bcc[1] == "0" || $bcc[1] == ""){
                         $mail->addBCC($bcc[0]);
                     } else {
-                        $mail->addBCC($bcc[0], $bcc[1])
+                        $mail->addBCC($bcc[0], $bcc[1]);
                     }
                 }
             }
