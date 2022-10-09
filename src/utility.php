@@ -4,9 +4,9 @@
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
 
-    require 'core/PHPMailer/src/Exception.php';
-    require 'core/PHPMailer/src/PHPMailer.php';
-    require 'core/PHPMailer/src/SMTP.php';
+    require '/core/PHPMailer/src/Exception.php';
+    require '/core/PHPMailer/src/PHPMailer.php';
+    require '/core/PHPMailer/src/SMTP.php';
 
     function send_mail($data){
         global $smtp;
