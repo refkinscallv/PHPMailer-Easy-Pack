@@ -10,4 +10,9 @@ Official source for **PHPMailer** : [PHPMailer](https://github.com/PHPMailer/PHP
 ## Quick Install (Manual)
 - Download Source
 - Change the file call according to the folder location
-- Open *utility.php* file in `src/utility.php`
+- Open `utility.php` file in `src/utility.php`
+```php
+    require 'path/to/folder/PHPMailer/src/Exception.php';
+    require 'path/to/folder/PHPMailer/src/PHPMailer.php';
+    require 'path/to/folder/PHPMailer/src/SMTP.php';
+```
